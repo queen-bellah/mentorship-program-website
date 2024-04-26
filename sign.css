@@ -1,0 +1,230 @@
+
+
+/* Full-width input fields */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    height: 50px;
+     padding: 2px; 
+    margin: 1px 0 8px 0; 
+    display: inline-block;
+    border: 3px  #9106d1 solid;
+  
+    color: black;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+#signup{
+ 
+        width: 1300px;
+        height: 700px;
+        margin-left: 280px;
+        margin-top: 120px;
+        background-color: white;
+       
+        
+    
+    
+}
+.container img{
+    width: 80px;
+}
+.container h6{
+margin-top: -10px;
+}
+form{
+    border: 3px solid  #9106d1;
+}
+
+button {
+    border: 3px  #9106d1 solid;
+    color: #9106d1;
+   
+    padding: 14px 20px;
+    margin: 8px 0;
+    /* border: 2px black solid; */
+    cursor: pointer;
+    width: 20%;
+    margin-top: 50px;
+    margin-left: 480px;
+    opacity: 0.9;
+    border-radius: 12px
+    
+    
+}
+
+#log{
+    margin-left: 1000px;
+}
+/* button:hover {
+    opacity: 1;
+} */
+body{
+    background-color: #D4B4D9;
+}
+
+
+
+
+
+.container {
+    padding: 16px;
+}
+
+
+/* @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+        width: 100%;
+    }
+} */
+@media  only screen and (min-width:280px) and (max-width:768px){
+    input[type="text"], input[type="password"] {
+        width: 100%;
+        height: 50px;
+         padding: 2px; 
+        margin: 0px 0 8px 0; 
+        display: inline-block;
+        border: 3px  #9106d1 solid;
+      
+        color: black;
+    }
+    
+    input[type="text"]:focus, input[type="password"]:focus {
+        background-color: #ddd;
+        outline: none;
+    }
+    #signup{
+     
+            width: 260px;
+            height: 680px;
+            margin-left: 0px;
+            margin-top: 120px;
+            background-color: white;
+           
+            
+        
+        
+    }
+    .container img{
+        width: 80px;
+    }
+    .container h6{
+    margin-top: -10px;
+    }
+    form{
+        border: 3px solid  #9106d1;
+    }
+    
+    button {
+        border: 3px  #9106d1 solid;
+        color: #9106d1;
+       
+        padding: 14px 20px;
+        margin: 0px 0;
+        /* border: 2px black solid; */
+        cursor: pointer;
+        width: 80px;
+        margin-top: 50px;
+        margin-left: 0px;
+        opacity: 0.9;
+        border-radius: 12px
+        
+        
+    }
+    
+    #log{
+        margin-left: 0px;
+    }
+    /* button:hover {
+        opacity: 1;
+    } */
+    body{
+        background-color: #D4B4D9;
+    }
+    
+    
+    
+    
+    
+    .container {
+        padding: 16px;
+    }
+    
+}
+
+@media  only screen and (min-width:280px) and (max-width:768px){
+    input[type="text"], input[type="password"] {
+        width: 100%;
+        height: 50px;
+         padding: 2px; 
+        margin: 0px 0 8px 0; 
+        display: inline-block;
+        border: 3px  #9106d1 solid;
+      
+        color: black;
+    }
+    
+    input[type="text"]:focus, input[type="password"]:focus {
+        background-color: #ddd;
+        outline: none;
+    }
+    #signup{
+     
+            width: 260px;
+            height: 680px;
+            margin-left: 0px;
+            margin-top: 120px;
+            background-color: white;
+           
+            
+        
+        
+    }
+    .container img{
+        width: 80px;
+    }
+    .container h6{
+    margin-top: -10px;
+    }
+    form{
+        border: 3px solid  #9106d1;
+    }
+    
+    button {
+        border: 3px  #9106d1 solid;
+        color: #9106d1;
+       
+        padding: 14px 20px;
+        margin: 0px 0;
+        /* border: 2px black solid; */
+        cursor: pointer;
+        width: 80px;
+        margin-top: 50px;
+        margin-left: 0px;
+        opacity: 0.9;
+        border-radius: 12px
+        
+        
+    }
+    
+    #log{
+        margin-left: 0px;
+    }
+    /* button:hover {
+        opacity: 1;
+    } */
+    body{
+        background-color: #D4B4D9;
+    }
+    
+    
+    
+    
+    
+    .container {
+        padding: 16px;
+    }
+    
+}

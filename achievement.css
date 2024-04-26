@@ -1,0 +1,294 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+   justify-content: space-around;
+   list-style-type: none;
+
+}
+#nav nav{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+#nav ul{
+    gap: 5%;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-right: 40px;
+    font-size: 20px;
+
+}
+.achieved {
+    max-width: 260px;
+    margin: 0 auto;
+    /* padding: 20px; */
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    /* margin-top: 500px; */
+}
+.achieved input{
+    width: 180px;
+    height: 28px;
+    border-radius: 12px;
+}
+.achieved button{
+    width: 80px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    /* margin-bottom: 10px; */
+}
+#navbar a{
+    gap: 30%;
+    /* margin-left: 100px; */
+
+
+}
+#nav li{
+    margin-right: 10px;
+    
+}
+#achievement-list ul{
+    /* border: black 3px solid; */
+    margin-left: 20px;
+    width: 500px;
+    height: 480px;
+    list-style-type: none;
+    margin-top: 80px;
+}
+#achievement-list li{
+    margin-top: 10px;
+    font-size: 22px;
+    color:#9106d1 ;
+}
+#logo img{
+    width: 80px;
+}
+ h6{
+    position: absolute;
+    margin-top: -10px;
+    
+}
+body{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+button {
+    position: absolute;
+    color: #fff;
+    border:2px  palevioletred solid;
+    /* padding: 10px 20px; */
+    border-radius: 12px;
+    /* margin-left: 258px; */
+    /* margin-top: -70px; */
+    cursor: pointer;
+    color: black;
+}
+#footer{
+    display: flex;
+    background: rgb(194, 76, 237);;
+    color: black;
+    gap: 30%;
+    height: 230px;
+    
+}
+#footer-content3{
+    display: flex;
+
+}
+
+@media  only screen and (min-width:280px) and (max-width:768px){
+   
+    #navbar{
+        display: grid;
+        /* flex-direction: row;
+        /* align-items: center; */
+       /* justify-content: space-around;
+       list-style-type: none; */
+     
+    }
+    #nav nav{
+        display: grid;
+        /* flex-direction: row; */
+        list-style-type: none;
+    }
+    #nav ul{
+        gap: 5%;
+        display: grid;
+        /* flex-direction: row; */
+        list-style-type: none;
+        /* padding-right: 40px; */
+        font-size: 12px;
+    
+    }
+    #navbar a{
+        /* gap: 30%; */
+        /* margin-left: 100px; */
+    
+    
+    }
+    #nav li{
+        /* margin-right: 10px; */
+        
+    }
+    #achievement-list ul{
+        /* border: black 3px solid; */
+        /* margin-left: 20px; */
+        width: 300px;
+        height: 280px;
+        list-style-type: none;
+        margin-top: 80px;
+        margin-left: 0px;
+    }
+    #achievement-list li{
+        margin-top: 5px;
+        font-size: 8px;
+        color:#9106d1 ;
+    }
+    #logo img{
+        width: 80px;
+    }
+     h6{
+        position: absolute;
+        margin-top: -10px;
+        
+    }
+    body{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    button {
+        position: absolute;
+        color: #fff;
+        border:2px  palevioletred solid;
+        padding: 10px 20px;
+        border-radius: 12px;
+        margin-left: 10px;
+        /* margin-top: -0px; */
+        cursor: pointer;
+        color: black;
+        width: 100px;
+    }
+   
+    #footer{
+        display: grid;
+        background: rgb(194, 76, 237);;
+        color: black;
+        gap: 10%;
+        height: 370px;
+        margin-left: 10px;
+        font-size: 8px;
+        width: 180px;
+        
+    }
+    #footer-content3 img{
+        display: grid;
+    
+    }
+    
+}
+
+@media  only screen and (min-width:770px) and (max-width:1000px){
+    #navbar{
+        display: grid;
+        /* flex-direction: row;
+        /* align-items: center; */
+       /* justify-content: space-around;
+       list-style-type: none; */
+     
+    }
+    #nav nav{
+        display: grid;
+        /* flex-direction: row; */
+        list-style-type: none;
+    }
+    #nav ul{
+        gap: 5%;
+        display: grid;
+        /* flex-direction: row; */
+        list-style-type: none;
+        /* padding-right: 40px; */
+        font-size: 18px;
+    
+    }
+    #navbar a{
+        /* gap: 30%; */
+        /* margin-left: 100px; */
+    
+    
+    }
+    #nav li{
+        /* margin-right: 10px; */
+        
+    }
+    #achievement-list ul{
+        /* border: black 3px solid; */
+        /* margin-left: 20px; */
+        width: 600px;
+        height: 480px;
+        list-style-type: none;
+        margin-top: 80px;
+        margin-left: 0px;
+    }
+    #achievement-list li{
+        margin-top: 5px;
+        font-size: 20px;
+        color:#9106d1 ;
+    }
+    #logo img{
+        width: 80px;
+    }
+     h6{
+        position: absolute;
+        margin-top: -10px;
+        
+    }
+    body{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    button {
+        position: absolute;
+        color: #fff;
+        border:2px  palevioletred solid;
+        padding: 10px 20px;
+        border-radius: 12px;
+        margin-left: 10px;
+        /* margin-top: -0px; */
+        cursor: pointer;
+        color: black;
+        width: 100px;
+    }
+    #footer{
+        display: grid;
+        background: rgb(194, 76, 237);;
+        color: black;
+        gap: 10%;
+        height: 370px;
+        margin-left: 10px;
+        font-size: 16px;
+        width: 480px;
+        
+    }
+    #footer-content3 img{
+        display: grid;
+    
+    }
+    
+}

@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+   justify-content: space-around;
+   list-style-type: none;
+
+}
+#nav nav{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+#nav ul{
+    gap: 5%;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-right: 40px;
+    font-size: 20px;
+
+}
+#navbar a{
+    gap: 30%;
+    /* margin-left: 100px; */
+
+
+}
+#nav li{
+    margin-right: 10px;
+    
+}
+#mentor-profile{
+    margin-left: 460px;
+    margin-top: 80px;
+}
+#mentor-profile h3{
+    margin-left:400px;
+    margin-top: -100px;
+    color: #9106d1;
+}
+#mentor-profile label{
+    color: #9106d1;
+}
+#mentor-profile img{
+    border-radius:82px;
+}
+#logo img{
+    width: 80px;
+}
+ h6{
+    position: absolute;
+    margin-top: -10px;
+    
+}
+body{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+#footer{
+    display: flex;
+    background: rgb(194, 76, 237);
+    color: black;
+    gap: 30%;
+    height: 230px;
+    
+}
+#footer-content3{
+    display: flex;
+
+}
+
+@media screen and (min-width:280px) and (max-width:540px){
+    #navbar{
+        display: grid;
+        /* flex-direction: row;
+        /* align-items: center; */
+       /* justify-content: space-around;
+       list-style-type: none; */ 
+    
+    }
+    #nav nav{
+        display: grid;
+        /* flex-direction: row; */
+        list-style-type: none;
+    }
+    #nav ul{
+        gap: 5%;
+        display: grid;
+        /* flex-direction: row; */
+        list-style-type: none;
+        /* padding-right: 4px; */
+        font-size: 12px;
+    
+    }
+    #navbar a{
+        gap: 10%;
+        /* margin-left: 100px; */
+    
+    
+    }
+    #nav li{
+        /* margin-right: 10px; */
+        
+    }
+    #mentor-profile{
+        margin-left: 0px;
+        margin-top: 140px;
+    }
+    #mentor-profile h3{
+        margin-left:40px;
+        margin-top: -100px;
+        color: #9106d1;
+    }
+    #mentor-profile label{
+        color: #9106d1;
+    }
+    #mentor-profile img{
+        border-radius:82px;
+    }
+    #logo img{
+        width: 80px;
+    }
+     h6{
+        position: absolute;
+        margin-top: -10px;
+        
+    }
+    body{
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+    #footer{
+        display: grid;
+        background: rgb(194, 76, 237);
+        color: black;
+        gap: 30%;
+        height: 130px;
+        
+    }
+    #footer-content3{
+        display: flex;
+    
+    }
+}
