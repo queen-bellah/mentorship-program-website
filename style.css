@@ -129,7 +129,7 @@ body{
 }
 }
 
-@media  only screen and (min-width:360px) and (max-width:540px){
+@media  only screen and (min-width:360px) and (max-width:390px){
   body {
     font-family: Arial, Helvetica, sans-serif;
     background-color:#D4B4D9 ;
@@ -140,7 +140,7 @@ body{
     height: 500px;
     background-color: white;
     width: 250px;
-    margin-left: 40px;
+    margin-left: 49px;
     margin-top: 60px;
     
 }
@@ -194,6 +194,70 @@ body{
 }
 }
 
+@media  only screen and (min-width:410px) and (max-width:540px){
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#D4B4D9 ;
+    align-content: center;
+}
+.web-form {
+    border: 3px solid  #9106d1;
+    height: 500px;
+    background-color: white;
+    width: 250px;
+    margin-left: 68px;
+    margin-top: 60px;
+    
+}
+.logo1{
+  width: 80px;
+  height: 80px;
+}
+input[type=text], input[type=password] {
+  width: 230px;
+  /* padding: 12px 20px; */
+  /* margin: 8px 0; */
+  display: inline-block;
+  border: 3px  #9106d1;
+  box-sizing: border-box;
+ 
+}
+
+button {
+  border: 3px  #9106d1 solid;
+  color: #9106d1;
+  /* padding: 14px 20px; */
+  /* margin: 8px 0; */
+  /* border: none; */
+  cursor: pointer;
+  width: 80px;
+  border-radius: 12px;
+  /* margin-left: 150px; */
+}
+
+
+.container {
+  /* padding: 16px; */
+
+}
+.container input{
+  border: 3px  #9106d1 solid;
+}
+span.psw {
+  justify-content: center;
+  /* padding-top: 16px; */
+}
+
+
+.container {
+  /* padding: 6px; */
+}
+
+body{
+  overflow-x: hidden;
+  background-color: #D4B4D9;
+}
+}
 
 
 @media  only screen and (min-width:765px) and (max-width:928px){
@@ -260,7 +324,7 @@ body{
   background-color: #D4B4D9;
 }
 }
-@media  only screen and (min-width:1000px) and (max-width:1300px){
+@media  only screen and (min-width:1000px) and (max-width:1100px){
   body {
     font-family: Arial, Helvetica, sans-serif;
     background-color:#D4B4D9 ;
@@ -268,10 +332,75 @@ body{
 }
 .web-form {
     border: 3px solid  #9106d1;
-    height: 700px;
+    height: 800px;
     background-color: white;
-    width: 350px;
-    margin-left: 380px;
+    width: 400px;
+    margin-left: 290px;
+    margin-top: 60px;
+    
+}
+.logo1{
+  width: 80px;
+  height: 80px;
+}
+input[type=text], input[type=password] {
+  width: 230px;
+  /* padding: 12px 20px; */
+  /* margin: 8px 0; */
+  display: inline-block;
+  border: 3px  #9106d1;
+  box-sizing: border-box;
+ 
+}
+
+button {
+  border: 3px  #9106d1 solid;
+  color: #9106d1;
+  /* padding: 14px 20px; */
+  /* margin: 8px 0; */
+  /* border: none; */
+  cursor: pointer;
+  width: 80px;
+  border-radius: 12px;
+  /* margin-left: 150px; */
+}
+
+
+.container {
+  /* padding: 16px; */
+
+}
+.container input{
+  border: 3px  #9106d1 solid;
+}
+span.psw {
+  justify-content: center;
+  /* padding-top: 16px; */
+}
+
+
+.container {
+  /* padding: 6px; */
+}
+
+body{
+  overflow-x: hidden;
+  background-color: #D4B4D9;
+} 
+}
+
+@media  only screen and (min-width:1200px) and (max-width:1280px){
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#D4B4D9 ;
+    align-content: center;
+}
+.web-form {
+    border: 3px solid  #9106d1;
+    height: 800px;
+    background-color: white;
+    width: 400px;
+    margin-left: 400px;
     margin-top: 60px;
     
 }

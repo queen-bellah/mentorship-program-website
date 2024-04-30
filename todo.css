@@ -115,13 +115,13 @@ button {
 }
 #important-to-do{
     border:2px  palevioletred solid;
-    height: 450px; 
+    height: 550px; 
     width: 500px;
     color: #9106d1;
 }
 #not-urgent-to-do{
     border:2px  palevioletred solid;
-    height: 450px; 
+    height: 550px; 
     width: 500px;
     color: #9106d1;
 }
