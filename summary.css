@@ -8,12 +8,13 @@
  .text{
     margin-top: 180px;
     text-align: justify;
-    font-size: 20px;
+    font-size: 18px;
  }
 
  .bornacrime img{
    margin-top: 230px;
    width: 580px;
+   height: 400px;
  }
  #navbar{
     display: flex;
